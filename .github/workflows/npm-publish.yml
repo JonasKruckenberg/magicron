@@ -16,8 +16,10 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 15
-      - run: yarn
-      - run: yarn build
+      - name: Install dependencies
+        run: yarn
+      - name: Build project
+        run: yarn build
 
   publish-npm:
     needs: build
@@ -28,21 +30,10 @@ jobs:
         with:
           node-version: 15
           registry-url: https://registry.npmjs.org/
-      - run: yarn
-      - run: npm publish
+      - name: Install dependencies
+        run: yarn
+      - name: Publish
+        run: npx semantic-release
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
-
-  publish-gpr:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 15
-          registry-url: https://npm.pkg.github.com/
-      - run: yarn
-      - run: npm publish
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
