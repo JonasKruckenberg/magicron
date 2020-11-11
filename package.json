@@ -1,8 +1,11 @@
 {
-  "name": "magic",
+  "name": "magicron",
   "version": "1.0.0",
   "main": "dist/index.js",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "rollup -cw",
     "build": "rollup -c",
