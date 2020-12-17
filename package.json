@@ -26,6 +26,6 @@
   "dependencies": {
     "croner": "^1.1.23",
     "dbus-next": "^0.9.1",
-    "ipfs-http-client": "^48.1.1"
+    "ipfs-http-client": "^48.1.3"
   }
 }
