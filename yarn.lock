@@ -325,6 +325,11 @@
   dependencies:
     source-map "^0.6.0"
 
+"@zxing/text-encoding@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@zxing/text-encoding/-/text-encoding-0.9.0.tgz#fb50ffabc6c7c66a0c96b4c03e3d9be74864b70b"
+  integrity sha512-U/4aVJ2mxI0aDNI8Uq0wEhMgY+u4CNtEb0om3+y3+niDAsoTCOB33UF0sxpzqzdqXLqmvc+vZyAt4O8pPdfkwA==
+
 JSONStream@^1.0.4, JSONStream@^1.3.4, JSONStream@^1.3.5:
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/JSONStream/-/JSONStream-1.3.5.tgz#3208c1f08d3a4d99261ab64f92302bc15e111ca0"
@@ -457,13 +462,13 @@ ansistyles@~0.1.3:
   resolved "https://registry.yarnpkg.com/ansistyles/-/ansistyles-0.1.3.tgz#5de60415bda071bb37127854c864f41b23254539"
   integrity sha1-XeYEFb2gcbs3EnhUyGT0GyMlRTk=
 
-any-signal@^2.0.0, any-signal@^2.1.0:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/any-signal/-/any-signal-2.1.1.tgz#6458f7ce08cfdd8df21953016ae03ca129b07e35"
-  integrity sha512-kjyMTtHQsB3yZAVDZlLVucPJnmnrXhamB/rm3Td3jse5Q+16FXXolP4elWU0yLFDyrxTkjjDXtIdjSPiEznf3w==
+any-signal@^2.1.0, any-signal@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/any-signal/-/any-signal-2.1.2.tgz#8d48270de0605f8b218cf9abe8e9c6a0e7418102"
+  integrity sha512-B+rDnWasMi/eWcajPcCWSlYc7muXOrcYrqgyzcdKisl2H/WTlQ0gip1KyQfr0ZlxJdsuWCj/LWwQm7fhyhRfIQ==
   dependencies:
     abort-controller "^3.0.0"
-    native-abort-controller "0.0.3"
+    native-abort-controller "^1.0.3"
 
 aproba@^1.0.3, aproba@^1.1.1, aproba@^1.1.2:
   version "1.2.0"
@@ -577,7 +582,7 @@ before-after-hook@^2.1.0:
   resolved "https://registry.yarnpkg.com/before-after-hook/-/before-after-hook-2.1.0.tgz#b6c03487f44e24200dd30ca5e6a1979c5d2fb635"
   integrity sha512-IWIbu7pMqyw3EAJHzzHbWa85b6oud/yfKYg5rqB5hNE8CeMi3nX+2C2sj0HswfblST86hpVEOAb9x34NZd6P7A==
 
-bignumber.js@^9.0.0:
+bignumber.js@^9.0.0, bignumber.js@^9.0.1:
   version "9.0.1"
   resolved "https://registry.yarnpkg.com/bignumber.js/-/bignumber.js-9.0.1.tgz#8d7ba124c882bfd8e43260c67475518d0689e4e5"
   integrity sha512-IdZR9mh6ahOBv/hYGiXyVuyCetmGJhtYkqLBpTStdhEGjegpPlUawydyaF3pbIOFynJTpllEs+NP+CS9jKFLjA==
@@ -2303,27 +2308,27 @@ ip@1.1.5:
   resolved "https://registry.yarnpkg.com/ip/-/ip-1.1.5.tgz#bdded70114290828c0a039e72ef25f5aaec4354a"
   integrity sha1-vd7XARQpCCjAoDnnLvJfWq7ENUo=
 
-ipfs-core-types@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/ipfs-core-types/-/ipfs-core-types-0.3.0.tgz#244ce1db49ba60b88f505de6cc8e2565d4c534ab"
-  integrity sha512-vsPS2uxEvIKSbslmC02CDoniaKAzjOtj4e4LK8KNHEPCCa2T1vSFlgNLeqX7G2dCcH8LYPVPO3G8TVYytWgioA==
+ipfs-core-types@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/ipfs-core-types/-/ipfs-core-types-0.3.1.tgz#5dab234428d031d0657d1708f7bb040281d6ab5f"
+  integrity sha512-xPBsowS951RsuskMo86AWz9y4ReaBot1YsjOhZvKl8ORd8taxIBTT72LnEPwIZ2G24U854Zjxvd/qUMqO14ivg==
   dependencies:
     cids "^1.1.5"
     multiaddr "^8.0.0"
     peer-id "^0.14.1"
 
-ipfs-core-utils@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/ipfs-core-utils/-/ipfs-core-utils-0.7.0.tgz#935fcd37785f3d4fa17d1c178706a488d2b4245a"
-  integrity sha512-0EtNteZ2sTCkgg2KEA5EFTo+vJSOzecyF2g8uES0viyg8Smf3Ym+Cn/nl6vKiimjNR943H9BXKcMxs2GvA1b9g==
+ipfs-core-utils@^0.7.2:
+  version "0.7.2"
+  resolved "https://registry.yarnpkg.com/ipfs-core-utils/-/ipfs-core-utils-0.7.2.tgz#ebc1281d14d26538881a8249c3eed8c27b98f519"
+  integrity sha512-d7T72GxvhNN+tEHsJjxI5Y4LQVdMMbSwNbWB6nVsIHUEdwm3w85L2u1E/ctNd9aaNGvoBwEcnIZhSmqhMf7stw==
   dependencies:
-    any-signal "^2.0.0"
+    any-signal "^2.1.2"
     blob-to-it "^1.0.1"
     browser-readablestream-to-it "^1.0.1"
     cids "^1.1.5"
     err-code "^2.0.3"
-    ipfs-core-types "^0.3.0"
-    ipfs-utils "^6.0.0"
+    ipfs-core-types "^0.3.1"
+    ipfs-utils "^6.0.1"
     it-all "^1.0.4"
     it-map "^1.0.4"
     it-peekable "^1.0.1"
@@ -2331,21 +2336,22 @@ ipfs-core-utils@^0.7.0:
     multiaddr-to-uri "^6.0.0"
     parse-duration "^0.4.4"
     timeout-abort-controller "^1.1.1"
-    uint8arrays "^2.0.5"
+    uint8arrays "^2.1.3"
 
-ipfs-http-client@^49.0.1:
-  version "49.0.1"
-  resolved "https://registry.yarnpkg.com/ipfs-http-client/-/ipfs-http-client-49.0.1.tgz#26d8e4100348795a6c79213b0a0a88a092664712"
-  integrity sha512-CDfed7Vbkomgzp5t0oFm6uKe6bjjgW10LgUzmpby2Ai3O1Zryhwbj3RQpYQQGKqub+fG76jEtpteVNZ8HBc9Mg==
+ipfs-http-client@^49.0.4:
+  version "49.0.4"
+  resolved "https://registry.yarnpkg.com/ipfs-http-client/-/ipfs-http-client-49.0.4.tgz#a7b5a696ab755ce1e822240e1774caab6cffa117"
+  integrity sha512-qgWbkcB4glQrUkE2tZR+GVXyrO6aJyspWBjyct/6TzrhCHx7evjz+kUTK+wNm4S9zccUePEml5VNZUmUhoQtbA==
   dependencies:
-    any-signal "^2.0.0"
-    bignumber.js "^9.0.0"
+    abort-controller "^3.0.0"
+    any-signal "^2.1.2"
+    bignumber.js "^9.0.1"
     cids "^1.1.5"
     debug "^4.1.1"
     form-data "^3.0.0"
-    ipfs-core-types "^0.3.0"
-    ipfs-core-utils "^0.7.0"
-    ipfs-utils "^6.0.0"
+    ipfs-core-types "^0.3.1"
+    ipfs-core-utils "^0.7.2"
+    ipfs-utils "^6.0.1"
     ipld-block "^0.11.0"
     ipld-dag-cbor "^0.17.0"
     ipld-dag-pb "^0.20.0"
@@ -2356,19 +2362,19 @@ ipfs-http-client@^49.0.1:
     it-to-stream "^0.1.2"
     merge-options "^3.0.4"
     multiaddr "^8.0.0"
-    multibase "^3.0.0"
-    multicodec "^2.0.1"
-    multihashes "^3.0.1"
+    multibase "^4.0.2"
+    multicodec "^3.0.1"
+    multihashes "^4.0.2"
     nanoid "^3.1.12"
-    native-abort-controller "~0.0.3"
+    native-abort-controller "^1.0.3"
     parse-duration "^0.4.4"
     stream-to-it "^0.2.2"
-    uint8arrays "^2.0.5"
+    uint8arrays "^2.1.3"
 
-ipfs-utils@^6.0.0:
-  version "6.0.0"
-  resolved "https://registry.yarnpkg.com/ipfs-utils/-/ipfs-utils-6.0.0.tgz#196469a13b13fd1cbdbc35afb4d7177ed1cac1de"
-  integrity sha512-i47dVKS2rYFIQgWNBV+fMqBUNoDwUuvQz9YIQ1GtYgX6kmffTJx+d4lSn7R/WlVVxq83+zAIFGdh3W/9Y27VeQ==
+ipfs-utils@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/ipfs-utils/-/ipfs-utils-6.0.1.tgz#1c1d2b5da5600d00407ad2262ce59a9f58a0f9d1"
+  integrity sha512-u6fJDi/LpCEj96JM//cdDWJV44YR7jLdxQ6I0d8Hj/BCPIQPTWsjQeSppKxudMjYRpX4kzdv9WxrNM8dc4rtlQ==
   dependencies:
     abort-controller "^3.0.0"
     any-signal "^2.1.0"
@@ -2382,7 +2388,7 @@ ipfs-utils@^6.0.0:
     it-to-stream "^0.1.2"
     merge-options "^3.0.4"
     nanoid "^3.1.20"
-    native-abort-controller "0.0.3"
+    native-abort-controller "^1.0.3"
     native-fetch "2.0.1"
     node-fetch "^2.6.1"
     stream-to-it "^0.2.2"
@@ -3471,13 +3477,29 @@ multibase@^3.0.0, multibase@^3.0.1, multibase@^3.1.0:
     "@multiformats/base-x" "^4.0.1"
     web-encoding "^1.0.6"
 
-multicodec@^2.0.0, multicodec@^2.0.1, multicodec@^2.1.0:
+multibase@^4.0.1, multibase@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/multibase/-/multibase-4.0.2.tgz#8250a0f50d0ed49765146bf0e3431e3df9b249ac"
+  integrity sha512-l0XMK4O5I9cCfxC0/UMDX/UxlIlrqkjEZQNG+ZUUrsGhnXWgFXgatYOQSONiR/lQGfBO463UyZkh3SiQBpjRIQ==
+  dependencies:
+    "@multiformats/base-x" "^4.0.1"
+    web-encoding "^1.1.0"
+
+multicodec@^2.0.0, multicodec@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/multicodec/-/multicodec-2.1.0.tgz#b66dff2184e91e74ac68981e0deba2591bbf1f87"
   integrity sha512-7AYpK/avswOWvnqQ9/jOkQCS7Fp4aKxw5ojvn5gyK2VQTZz3YVXeLMzoIZDBy745JSfJMXkTS0ptnHci5Mt1mA==
   dependencies:
     uint8arrays "1.1.0"
     varint "^6.0.0"
+
+multicodec@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/multicodec/-/multicodec-3.0.1.tgz#94e043847ee11fcce92487609ac9010429a95e31"
+  integrity sha512-Y6j3wiPojvkF/z6KFIGt84KdJdP2oILEdzc/3YbD3qQ3EerhqtYlfsZTPPNVoCCxNZZdzIpCKrdYFSav17sIrQ==
+  dependencies:
+    uint8arrays "^2.1.3"
+    varint "^5.0.2"
 
 multihashes@^3.0.1, multihashes@^3.1.0, multihashes@^3.1.1:
   version "3.1.2"
@@ -3487,6 +3509,15 @@ multihashes@^3.0.1, multihashes@^3.1.0, multihashes@^3.1.1:
     multibase "^3.1.0"
     uint8arrays "^2.0.5"
     varint "^6.0.0"
+
+multihashes@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/multihashes/-/multihashes-4.0.2.tgz#d76aeac3a302a1bed9fe1ec964fb7a22fa662283"
+  integrity sha512-xpx++1iZr4ZQHjN1mcrXS6904R36LWLxX/CBifczjtmrtCXEX623DMWOF1eiNSg+pFpiZDFVBgou/4v6ayCHSQ==
+  dependencies:
+    multibase "^4.0.1"
+    uint8arrays "^2.1.3"
+    varint "^5.0.2"
 
 multihashing-async@^2.0.0, multihashing-async@^2.0.1:
   version "2.0.1"
@@ -3520,12 +3551,10 @@ nanoid@^3.1.12, nanoid@^3.1.20:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.20.tgz#badc263c6b1dcf14b71efaa85f6ab4c1d6cfc788"
   integrity sha512-a1cQNyczgKbLX9jwbS/+d7W8fX/RfgYR7lVWwWOGIPNgK2m0MWvrGF6/m4kk6U3QcFMnZf3RIhL0v2Jgh/0Uxw==
 
-native-abort-controller@0.0.3, native-abort-controller@~0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/native-abort-controller/-/native-abort-controller-0.0.3.tgz#4c528a6c9c7d3eafefdc2c196ac9deb1a5edf2f8"
-  integrity sha512-YIxU5nWqSHG1Xbu3eOu3pdFRD882ivQpIcu6AiPVe2oSVoRbfYW63DVkZm3g1gHiMtZSvZzF6THSzTGEBYl8YA==
-  dependencies:
-    globalthis "^1.0.1"
+native-abort-controller@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/native-abort-controller/-/native-abort-controller-1.0.3.tgz#35974a2e189c0d91399c8767a989a5bf058c1435"
+  integrity sha512-fd5LY5q06mHKZPD5FmMrn7Lkd2H018oBGKNOAdLpctBDEPFKsfJ1nX9ke+XRa8PEJJpjqrpQkGjq2IZ27QNmYA==
 
 native-fetch@2.0.1, native-fetch@^2.0.1:
   version "2.0.1"
@@ -5422,13 +5451,13 @@ uint8arrays@1.1.0, uint8arrays@^1.0.0, uint8arrays@^1.1.0:
     multibase "^3.0.0"
     web-encoding "^1.0.2"
 
-uint8arrays@^2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/uint8arrays/-/uint8arrays-2.0.5.tgz#763d0c3dd8e1d05b656d2e60c8a9a53096a47d9e"
-  integrity sha512-1HSktgwqtYIwVn1mg3GcnqKhHH9oC4kVgdD/43cxMWwhP8rihKcFPmToDzS1XtbvVvlR8XxTk/DUBf0C83qNIg==
+uint8arrays@^2.0.5, uint8arrays@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/uint8arrays/-/uint8arrays-2.1.3.tgz#6e09ed40687042ed7b0047b498c0e876efe5a49a"
+  integrity sha512-2h2Z2OIqzrhHmZTv9ViJVyZZreFkHRHeihh7SxLVY/nLUVJhU4ey/u74tWsgMR6hhMSO2g5rhKmdLQIg3lKiUQ==
   dependencies:
-    multibase "^3.0.0"
-    web-encoding "^1.0.5"
+    multibase "^4.0.1"
+    web-encoding "^1.1.0"
 
 umask@^1.1.0, umask@~1.1.0:
   version "1.1.0"
@@ -5580,7 +5609,7 @@ validate-npm-package-name@^3.0.0, validate-npm-package-name@~3.0.0:
   dependencies:
     builtins "^1.0.3"
 
-varint@^5.0.0, varint@~5.0.0:
+varint@^5.0.0, varint@^5.0.2, varint@~5.0.0:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/varint/-/varint-5.0.2.tgz#5b47f8a947eb668b848e034dcfa87d0ff8a7f7a4"
   integrity sha512-lKxKYG6H03yCZUpAGOPOsMcGxd1RHCu1iKvEHYDPmTyq2HueGhD73ssNBqqQWfvYs04G9iUFRvmAVLW20Jw6ow==
@@ -5611,10 +5640,17 @@ web-encoding@^1.0.2:
   resolved "https://registry.yarnpkg.com/web-encoding/-/web-encoding-1.0.4.tgz#0398d39ce2cbef5ed2617080750ed874e6153aea"
   integrity sha512-DcXs2lbVPzuJmn2kuDEwul2oZg7p4YMa5J2f0YzsOBHaAnBYGPNUB/rJ74DTjTKpw7F0+lSsVM8sFHE2UyBixg==
 
-web-encoding@^1.0.5, web-encoding@^1.0.6:
+web-encoding@^1.0.6:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/web-encoding/-/web-encoding-1.0.6.tgz#ec631356ee523b4474ecbcae680440bd1e79416a"
   integrity sha512-26wEnRPEFAc5d5lmH1Q/DuvWEYsRF1D2alX2jlKpdmqv7cj+BbANL7Xlcl9r4s72Eg9kItZa9RWVbBMC9dMv4w==
+
+web-encoding@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/web-encoding/-/web-encoding-1.1.0.tgz#b8ed50f0e23ba239542ba11ebe885b75a0b95bea"
+  integrity sha512-KzYonGdJnZB3qvhK8hKca5qXk/wp+hgwGNTY1TnqtF2CzDzpN8szOC3ejhX9+wbhCq3vQs/TjM8BykS1kor0lQ==
+  optionalDependencies:
+    "@zxing/text-encoding" "0.9.0"
 
 which-module@^2.0.0:
   version "2.0.0"
